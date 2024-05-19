@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Hugoplate"
+logo_text = "Your Eco-Friendly Haven"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -32,19 +32,19 @@ copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
-enable = false
-preloader = "" # use jpg, png, svg or gif format.
+enable = true
+preloader = "png" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
 enable = true
-label = "get a quote"
-link = "contact"
+label = "Real Estate agent"
+link = "https://www.imovastgoed.be/pand/energetisch-gerenoveerde-villa-op-top-locatie/"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
 include_sections = ["blog"]
 show_image = true
@@ -62,9 +62,9 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["Hoeilaart","Sonian Forest","EPC-A rating","solar panels","energy efficiency","outdoor","spaceyus"]
+description = "Boomgaardlaan 22 in Hoeilaart offers a perfect blend of tranquility, outdoor adventure, and energy-efficient living. Embrace a lifestyle that prioritizes comfort, sustainability, and a connection to nature. This property is ideal for those looking to escape the busy urban life while enjoying the benefits of an eco-friendly home."
+author = "Ken VE"
 image = "images/og-image.png"
 
 
@@ -80,7 +80,7 @@ mastodon = "" # Your verification code
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = false
+enable = true
 expire_days = 60
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"

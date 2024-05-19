@@ -1,53 +1,39 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Tranquil Living at Boomgaardlaan 22, Hoeilaart - Your Eco-Friendly Haven"
+  content: "Located in the beautiful town of Hoeilaart, this building offers a prime location for your real estate needs. Situated in the green lung of Brussels, it provides a tranquil and picturesque setting. With easy access to amenities, schools, and transportation, this property is conveniently located for both residents and commuters. Don't miss out on the opportunity to own a piece of this charming town."
+  image: "/images/gallery/Main.jpg"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Contact the real estate agent
+  "
+    link: "https://www.imovastgoed.be/pand/energetisch-gerenoveerde-villa-op-top-locatie/"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Energy effecient"
+    image: "/images/gallery/SOL+BOIL.jpg"
+    content: "This villa has been meticulously renovated to achieve an EPC A level, making it highly energy efficient. With state-of-the-art insulation, solar panels, and energy-saving appliances, you can enjoy a comfortable and sustainable living experience. The renovation also includes modern and stylish finishes, creating a perfect blend of functionality and aesthetics. Don't miss the opportunity to own this eco-friendly and luxurious villa."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+      - "Solar Power: 6MWh Annual Production"
+      - "Sun Boiler: 4m² Coverage"
+      - "Battery with Off-Grid Functionality: 9kWh"
+      - "Geothermal Heat Pump"
+      - "Ventilation System D"
+      - "Rainwater Harvesting System"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Renovated for expandibility"
+    image: "/images/gallery/Mezanine.jpg"
+    content: "The solar panels can be expanded by 2 more strings (cables are ready), and the battery is expandable. Inside the house, there are 2 shafts that run from the basement to the top. This facilitates any expansions to the house, such as ventilation, electricity, ethernet cables, or other controllers. The energy system is domotica ready, with a basic module already installed, and network cables are available in all rooms."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Solar panels: The house is equipped with solar panels, that can be expanded"
+      - "Battery system: The house includes a battery system that allows for off-grid functionality and energy storage."
+      - "Maintenance shafts: The house features two maintenance shafts that provide easy access for maintenance or expanding facilities."
     button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+    enable: true
+    label: "Contact the real estate agent"
+    link: "https://www.imovastgoed.be/pand/energetisch-gerenoveerde-villa-op-top-locatie/"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+  
 ---

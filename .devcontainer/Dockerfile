@@ -1,16 +1,16 @@
 # Update the arg in docker-compose.yml or devcontainer.json to switch arg versions
-ARG NODE_VERSION=18
+ARG NODE_VERSION=22
 
 # main image
 FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
 
 # Update the arg in docker-compose.yml or devcontainer.json to switch arg versions
-ARG GO_VERSION=latest
-ARG HUGO_VERSION=latest
+ARG GO_VERSION=1.22.3
+ARG HUGO_VERSION=0.126.1
 
 # Download necessary tools
 RUN apt-get update && apt-get install -y \
-    ca-certificates openssl git curl && \
+    ca-certificates openssl git curl wget && \
     rm -rf /var/lib/apt/lists/* && \
     # set architecture
     case $(uname -m) in \
@@ -28,6 +28,5 @@ RUN apt-get update && apt-get install -y \
     wget -O go${GO_VERSION}.linux-${ARCH}.tar.gz https://dl.google.com/go/go${GO_VERSION}.linux-${ARCH}.tar.gz && \
     tar -C /usr/local -xzf go${GO_VERSION}.linux-${ARCH}.tar.gz && \
     rm go${GO_VERSION}.linux-${ARCH}.tar.gz
-
 # Export Go path
 ENV PATH=$PATH:/usr/local/go/bin
