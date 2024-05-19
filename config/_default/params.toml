@@ -55,7 +55,7 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 7
 content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
@@ -65,7 +65,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 keywords = ["Hoeilaart","Sonian Forest","EPC-A rating","solar panels","energy efficiency","outdoor","spaceyus"]
 description = "Boomgaardlaan 22 in Hoeilaart offers a perfect blend of tranquility, outdoor adventure, and energy-efficient living. Embrace a lifestyle that prioritizes comfort, sustainability, and a connection to nature. This property is ideal for those looking to escape the busy urban life while enjoying the benefits of an eco-friendly home."
 author = "Ken VE"
-image = "images/og-image.png"
+image = ""
 
 
 # site verifications
