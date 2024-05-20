@@ -11,10 +11,10 @@ weight = 1
 # pageRef = "/about"
 # weight = 2
 
-# [[main]]
-# name = "Elements"
-# pageRef = "/elements"
-# weight = 3
+ [[main]]
+ name = "Details"
+ pageRef = "/details"
+ weight = 2
 
 # [[main]]
 # weight = 4
