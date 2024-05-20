@@ -1,9 +1,10 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hello welcome to information about your new home"
 meta_title: "About"
-description: "this is meta description"
+description: "This site has been created to help inform potential byers about all what the house has to offer"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+This website contains information about all things related to your new home, wether its about electricity 
+or thecserrounding area. It has details on all things and more...
